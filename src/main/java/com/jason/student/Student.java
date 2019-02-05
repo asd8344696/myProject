@@ -1,6 +1,6 @@
 package com.jason.student;
 
-public class Student {
+public class Student{
     String id;   //
     String name; //
     int english; //
