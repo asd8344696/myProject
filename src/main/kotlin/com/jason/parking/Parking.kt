@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
 }
 
-class Car(val id:String,val enter:LocalDateTime){
+class Car(val id : String , val enter : LocalDateTime){
     var leave:LocalDateTime? = null
         set(value) {   // 自訂Setter
             if(enter.isBefore(value))
